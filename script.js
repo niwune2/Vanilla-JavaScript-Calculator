@@ -2,6 +2,8 @@ class Calculator {
   constructor(previousOperandTextElement, currentOperandTextElement) {
     this.previousOperandTextElement = previousOperandTextElement;
     this.currentOperandTextElement = currentOperandTextElement;
+    //表示に関わるプロパティ
+
     this.clear();
   }
 
